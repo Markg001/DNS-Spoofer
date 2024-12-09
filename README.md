@@ -1,6 +1,6 @@
 # DNS Spoofer
 
-This project demonstrates a DNS spoofing attack, which redirects a target's DNS queries for a specific domain to a malicious server. For this example, we will redirect `www.bing.com` to an Apache2 web server hosted on `192.168.1.114`.
+This project demonstrates a DNS spoofing attack, which redirects a target's DNS queries for a specific domain to a malicious server. For this example, we will redirect `www.bing.com` to an Apache2 web server hosted on `ip`.
 
 ---
 
